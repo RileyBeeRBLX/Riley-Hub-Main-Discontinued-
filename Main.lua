@@ -111,19 +111,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/yBloodz/Free-scripts/
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]Tab:AddButton({
-	Name = Weird Strict Dad (Testing 2)",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/InfinityMercury/Scripts/main/WeirdStrictDad/loader.lua",true))()
-      		print("button pressed")
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
 OrionLib:Init()
