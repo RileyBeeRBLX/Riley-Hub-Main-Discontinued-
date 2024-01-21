@@ -103,5 +103,27 @@ Callback = <function> - The function of the button.
 Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]Tab:AddButton({
+	Name = "Weird Strict Dad (Testing 1)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yBloodz/Free-scripts/main/Weird%20Strict%20Dad"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]Tab:AddButton({
+	Name = Weird Strict Dad (Testing 2)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/InfinityMercury/Scripts/main/WeirdStrictDad/loader.lua",true))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
 ]]
 OrionLib:Init()
