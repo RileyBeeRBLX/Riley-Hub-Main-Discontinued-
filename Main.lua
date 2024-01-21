@@ -30,6 +30,18 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/KTollT/main/RE
       		print("button pressed")
   	end    
 })
+Tab:AddButton({
+	Name = "Aimlock (Works For Dahood And Other Games Idk)!",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/SubtoRyzzchips""))()		
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 
 --[[
 Name = <string> - The name of the button.
