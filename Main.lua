@@ -123,4 +123,28 @@ loadstring(game:HttpGet("https://pastebin.com/raw/7Shu1JxY"))()
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+Tab:AddButton({
+	Name = "BlackHub Doors (Testing)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "KingHub Doors (Testing)",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 OrionLib:Init()
