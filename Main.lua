@@ -136,9 +136,9 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 Tab:AddButton({
-	Name = "KingHub Doors (Testing)",
+	Name = "Auto A 1000 Geo (Testing)",
 	Callback = function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRealGeo/roblox/master/rooms-autowalk"))()
       		print("button pressed")
   	end    
 })
