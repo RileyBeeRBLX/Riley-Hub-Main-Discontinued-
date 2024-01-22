@@ -111,5 +111,16 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();
       		print("button pressed")
   	end    
+})Tab:AddButton({
+	Name = "Doors Revive Test",
+	Callback = function()
+game.ReplicatedStorage.Bricks.Revive:FireServer()
+      		print("button pressed")
+  	end    
 })
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 OrionLib:Init()
