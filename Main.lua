@@ -97,7 +97,7 @@ Callback = <function> - The function of the button.
 Tab:AddButton({
 	Name = "Testing",
 	Callback = function()
-     
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();
       		print("button pressed")
   	end    
 })
