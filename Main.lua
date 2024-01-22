@@ -112,9 +112,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
       		print("button pressed")
   	end    
 })Tab:AddButton({
-	Name = "Doors Revive Test",
+	Name = "Auto A 1000 (Test)",
 	Callback = function()
-game.ReplicatedStorage.Bricks.Revive:FireServer()
+loadstring(game:HttpGet("https://pastebin.com/raw/7Shu1JxY"))()
       		print("button pressed")
   	end    
 })
