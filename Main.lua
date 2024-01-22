@@ -127,9 +127,10 @@ loadstring(game:HttpGet("https://" .. "raw.githubusercontent.com/DaRealGeo/roblo
   	end    
 })
 Tab:AddButton({
-	Name = "Stream Sniping (Testing)",
+	Name = "DarkCheat Hub (Testing)",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/StreamSniper.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VaniaPerets/FolderGui-FolderHub/main/loader.lua", true))()
+
       		print("button pressed")
   	end    
 })
@@ -144,6 +145,18 @@ Tab:AddButton({
 	Name = "Doors Hub 2(Testing)",
 	Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/8Pyk1Mnf'))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "DarkCheat Hub (Backup Testing!)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VaniaPerets/FolderGui-FolderHub/main/loader.lua", true))()
       		print("button pressed")
   	end    
 })
