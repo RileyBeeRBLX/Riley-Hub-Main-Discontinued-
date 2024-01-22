@@ -147,4 +147,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRealGeo/roblox/mast
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+Tab:AddButton({
+	Name = "MSDoors Script (Testing)",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 OrionLib:Init()
