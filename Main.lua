@@ -129,7 +129,7 @@ loadstring(game:HttpGet("https://" .. "raw.githubusercontent.com/DaRealGeo/roblo
 Tab:AddButton({
 	Name = "doors hub edited (Testing)",
 	Callback = function()
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/mstudio45/MSDOORS/7bd97c2d956a775d683c2d7973d79715b30998ea/MSDOORS/Moonsec.lua'))()
       		print("button pressed")
   	end    
 })
