@@ -177,4 +177,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/ma
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+Tab:AddButton({
+	Name = "Nerd Hub (Testing)",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/doorsroomdone.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 OrionLib:Init()
