@@ -189,4 +189,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/ma
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+Local Tab:AddToggle({
+	Name = "Uhhhh",
+	Default = false,
+	Callback = function(Value)
+loadstring(game:HttpGet("https://" .. "raw.githubusercontent.com/DaRealGeo/roblox/master/rooms-autowalk"))()
+		print(Value)
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
 OrionLib:Init()
